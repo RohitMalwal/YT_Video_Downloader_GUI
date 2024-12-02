@@ -61,7 +61,7 @@ For example:
 
 ## Example Workflow
 
-1. Enter a URL in the text box (e.g., `https://www.youtube.com/watch?v=video_code`).
+1. Enter a URL in the text box (e.g., `https://www.youtube.com/watch?v=your-video`).
 2. Select "video" or "audio".
 3. Choose the desired quality.
 4. Click the "Download" button to start the download process.
@@ -84,3 +84,8 @@ Feel free to fork the repository, submit issues, and contribute improvements or 
 
 ## License
 This project is open-source and available under the MIT License.
+
+## Author
+
+Developed by **Rohit Malwal**<br>
+Feel free to reach out for suggestions or improvements! 😊
