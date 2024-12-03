@@ -17,7 +17,7 @@ class Application(Tk):
         self.resizable(FALSE, FALSE)
         self.configure(bg="#f5f5f5")
         self.iconbitmap(r"images/favicon.ico")
-        
+
         self.columnconfigure(0, weight=1)
 
         self.frame = InputForm(self)
@@ -172,9 +172,6 @@ class InputForm(ttk.Frame):
             except Exception as e:
                 if str(e) == "Download canceled by user.":
                     print("\nDownload was canceled by the user.")
-                    return  # Exit gracefully
-                elif str(e) == "Download completed.":
-                    print("\nDownload is completed.")
                     return  # Exit gracefully
                 else:
                     raise  # Re-raise other exception
