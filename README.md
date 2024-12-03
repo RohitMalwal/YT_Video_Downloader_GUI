@@ -2,6 +2,14 @@
 
 This is a simple GUI-based YouTube Downloader built using Python's Tkinter library for the interface and `yt-dlp` for downloading YouTube videos or audio.
 
+### Disclaimer
+
+This tool is intended for educational purposes only. Use it responsibly and ensure that you comply with all applicable laws, YouTube's Terms of Service, and content creators' rights. Downloading copyrighted material without permission is illegal.
+
+By using this tool, you acknowledge that you are solely responsible for ensuring the content you download is legally available for download.
+
+
+
 ## Features
 
 - **Download Video/Audio**: Download the video or audio from YouTube based on the user's selection.

@@ -102,7 +102,7 @@ class InputForm(ttk.Frame):
         else:
             media_type = self.media_type.get()
             quality = self.quality.get()
-            self.lbl3.config(text="Started downloading..., please wait and do not click the download button twice.")
+            self.lbl3.config(text="Started downloading..., please wait until download completed.")
 
             if url:
                 # Reset progress bar and cancel event
@@ -186,6 +186,7 @@ class InputForm(ttk.Frame):
                     self.after(0, self.lbl3.config, {"text": "Download canceled."})
 
         except DownloadError as e:
+            self.lbl3.config(text="ERROR!")
             showerror(
                 title="ERROR",
                 message=f"Video failed to download: {e}"
