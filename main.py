@@ -4,7 +4,6 @@ from tkinter.messagebox import showerror
 from yt_dlp import YoutubeDL
 from yt_dlp.utils import DownloadError
 import threading
-from time import sleep
 
 def main():
     app = Application()
@@ -18,7 +17,7 @@ class Application(Tk):
         self.resizable(FALSE, FALSE)
         self.configure(bg="#f5f5f5")
         self.iconbitmap(r"images/favicon.ico")
-
+        
         self.columnconfigure(0, weight=1)
 
         self.frame = InputForm(self)
