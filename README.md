@@ -76,10 +76,10 @@ For example:
 
 ## Screenshot
 
-<img src="images/image1.png" alt="alt text" width="400" />
-<img src="images/image2.png" alt="alt text" width="400" />
-<img src="images/image3.png" alt="alt text" width="400" />
-<img src="images/image4.png" alt="alt text" width="400" />
+<img src="images/image1.png" alt="alt text" width="600" />
+<img src="images/image2.png" alt="alt text" width="600" />
+<img src="images/image3.png" alt="alt text" width="600" />
+<img src="images/image4.png" alt="alt text" width="600" />
 
 
 ## Troubleshooting
